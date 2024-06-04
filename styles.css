@@ -1,0 +1,59 @@
+/* Estilo geral para o corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o contêiner da calculadora */
+.calculator {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+}
+
+/* Estilo para a área de exibição */
+.display {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 2em;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+/* Estilo para o contêiner dos botões */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Estilo para os botões */
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Mudança de cor dos botões ao passar o mouse */
+.btn:hover {
+    background-color: #0056b3;
+}
